@@ -1,0 +1,8 @@
+.single-product .message-container.container.success-color.medium-text-center {
+  /* trying to hide the old check mark */
+}
+
+.single-product .message-container.container.success-color.medium-text-center i.icon-checkmark {
+  display: none;
+}
+/*# sourceMappingURL=hide_check_mark.css.map */

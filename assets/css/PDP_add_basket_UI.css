@@ -1,0 +1,48 @@
+.woocommerce-message::before {
+  background-image: url(../images/tick-icon.png);
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  content: "";
+  background-color: #fff !important;
+  color: blue !important;
+}
+
+.single-product .message-container.container.success-color.medium-text-center {
+  background-color: #0f834d;
+  margin-left: 0;
+  border-radius: 2px;
+  color: #fff;
+  clear: both;
+  border-left: 0.61805em solid rgba(0, 0, 0, 0.15);
+  position: relative;
+  list-style: none outside;
+  max-width: 100% !important;
+}
+
+@media screen and (min-width: 550px) {
+  .single-product .message-container.container.success-color.medium-text-center {
+    padding: 1em 1em 1em;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .single-product .message-container.container.success-color.medium-text-center {
+    padding: 1em 0em;
+    font-size: 15px;
+  }
+}
+
+.single-product .message-container.container.success-color.medium-text-center a.View_button {
+  float: right;
+  outline: 2px solid white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 14px;
+  padding-right: 14px;
+  color: white;
+}
+/*# sourceMappingURL=PDP_add_basket_UI.css.map */

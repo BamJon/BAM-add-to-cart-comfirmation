@@ -1,0 +1,136 @@
+ 
+.single-product {
+    .message-container.container.success-color.medium-text-center {
+      
+     
+
+        @media screen and (min-width:280px) and (max-width:305px) {
+            font-size: 14px;
+        }
+        @media screen and (min-width:306px) and (max-width:400px) {
+            font-size: 16px;
+        }
+        /* hiding the old checkmark */
+        i.icon-checkmark {
+         display: none;
+        }
+        @media screen and (min-width:280px) {
+            text-align: left;
+            font-weight: 600;
+            letter-spacing: 0.26px;
+            background-color: #0f834d;
+            margin-left: 0;
+            color: #fff;
+            clear: both;
+            position: relative;
+            list-style: none outside;
+            max-width: 100% !important;
+            padding-top: 1em;
+        
+        }
+
+        @media screen and (max-width:549px) {
+            padding-left: 0px !important;
+        }
+       
+ 
+      
+     .Success-add-to-basket {
+        @media screen and (min-width:435px) {
+            display: block;
+        }
+        @media screen and (max-width:549px) {
+            padding-left: 0px !important;
+        }
+ 
+        @media screen and (max-width:434px) {
+            display: inline-flex;
+        }
+         span {
+            display: inline-flex;
+            text-align: left;
+            float: left;
+
+  
+
+            img {
+                margin-right: 8px;
+                margin-left: 13px;
+          
+                @media screen and (min-width:280px) {
+                 
+                    margin-left: 4px;
+                    width: 25px;
+                    height: 25px;
+                } 
+
+                @media screen and (min-width:300px ) {
+                    margin-left: 6px;
+                }
+                 
+                }
+             
+    
+             .Message-cart {
+                 display: inline-flex;
+                 
+                 @media screen and (max-screen:299px) {
+                     font-size: 12px;
+                 }
+
+                 @media screen and (min-width:300px) and (max-width:374px) {
+                     font-size: 14px;
+                 }
+                 @media screen and (min-width:375px)  {
+                    font-size: 16px;
+                }
+            
+             }
+    
+         }
+      
+ 
+        
+         
+            a.View_Basket {
+                text-align: center;
+                outline: 2px solid white;
+                padding-bottom: 2px;
+                padding-left: 14px;
+                padding-right: 14px;
+                color: white;
+                padding-top: 4px;
+                white-space: pre;
+                border-radius: 4px;
+                float: right;
+                margin-right: 0px !important;
+                @media screen and (max-screen:319px) {
+                    font-size: 12px;
+                }
+
+                @media screen and (min-width:301px) and (max-width:374px) {
+                    font-size: 13px;
+                }
+                @media screen and (min-width:375px)  {
+                   font-size: 16px;
+               }
+                @media screen and (min-width:280px) and (max-width:500px) {
+                    margin-right: 0px;
+                    padding-left: 13px;
+                    padding-bottom: 1px;
+                    border-radius: 4px;
+                    display: inline-flex;
+                    border: 1px solid;
+                    margin-bottom: 23px;
+                    padding-top: 8px;
+               
+                }
+               
+                //  @media screen and (min-width:450px) {
+                //     float: right;
+                //  }
+        }
+        
+    }
+  }
+}

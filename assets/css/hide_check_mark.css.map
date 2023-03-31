@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,eADW,CACX,kBAAkB,AAAA,UAAU,AAAA,cAAc,AAAA,mBAAmB,CAAC;EAC5D,uCAAuC;CAIxC;;AANL,AAGK,eAHU,CACX,kBAAkB,AAAA,UAAU,AAAA,cAAc,AAAA,mBAAmB,CAE5D,CAAC,AAAA,eAAe,CAAC;EAClB,OAAO,EAAE,IAAI;CACb",
+    "sources": [
+        "hide_check_mark.scss"
+    ],
+    "names": [],
+    "file": "hide_check_mark.css"
+}

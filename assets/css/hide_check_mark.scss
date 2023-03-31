@@ -1,0 +1,8 @@
+.single-product {
+    .message-container.container.success-color.medium-text-center {
+      /* trying to hide the old check mark */
+     i.icon-checkmark {
+    display: none;
+   }
+    }
+}
