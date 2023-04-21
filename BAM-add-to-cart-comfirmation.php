@@ -20,7 +20,7 @@ return $messages;
 },10,3);
 
 
-add_action('woocommerce_single_product_summary', 'bam_haf_Comfirmations_Add_To_Baskets', 1);
+add_action('woocommerce_before_single_product_summary', 'bam_haf_Comfirmations_Add_To_Baskets', 1);
 
 function bam_haf_Comfirmations_Add_To_Baskets() {
 
